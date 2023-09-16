@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bh"
+    tools:context=".RegisterMainActivity2">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="6dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView_register_main"
+            android:text="Регістрація користувача"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="65dp"
+            android:padding="6dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView_register_name"
+            android:text="Введіть ваше Ім'я"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@id/TextView_register_main"
+            android:padding="4dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_register_name"
+            android:hint="@string/EditText_register_name"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_below="@id/TextView_register_name"
+            android:background="@drawable/border"
+            android:padding="4dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView_register_surname"
+            android:text="Введіть ваше Прізвище*"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@id/EditText_register_name"
+            android:padding="4dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_register_surname"
+            android:hint="@string/EditText_register_surname"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_below="@id/TextView_register_surname"
+            android:background="@drawable/border"
+            android:padding="4dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView_register_email"
+            android:text="Введіть ваше Email*"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@id/EditText_register_surname"
+            android:padding="4dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_register_email"
+            android:hint="@string/EditText_registr_email"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_below="@id/TextView_register_email"
+            android:background="@drawable/border"
+            android:padding="4dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView_register_password"
+            android:text="Введіть ваше Пароль*"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@id/EditText_register_email"
+            android:padding="4dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_register_password"
+            android:hint="@string/EditText_register_password"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_below="@id/TextView_register_password"
+            android:background="@drawable/border"
+            android:padding="4dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView_register_return_password"
+            android:text="Введіть ваше повторно Пароль*"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@id/EditText_register_password"
+            android:padding="4dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_register_return_password"
+            android:hint="@string/EditText_register_return_password"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_below="@id/TextView_register_return_password"
+            android:background="@drawable/border"
+            android:padding="4dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView_register_phone"
+            android:text="Введіть ваш номер телефону*"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@id/EditText_register_return_password"
+            android:padding="4dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_register_phone"
+            android:hint="@string/EditText_register_phone"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_below="@id/TextView_register_phone"
+            android:background="@drawable/border"
+            android:padding="4dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextView_register_date"
+            android:text="Введіть вашу дату народженя"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@id/EditText_register_phone"
+            android:padding="4dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_register_date"
+            android:hint="@string/EditText_register_date"
+            android:textColor="#555555"
+            android:textSize="20sp"
+            android:layout_below="@id/TextView_register_date"
+            android:background="@drawable/border"
+            android:padding="4dp"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_register_main"
+            android:text="Зареєструватися"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:minHeight="@dimen/cardview_compat_inset_shadow"
+            android:minWidth="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="65dp"
+            android:layout_below="@id/EditText_register_date"
+            android:layout_marginTop="10dp"
+            android:padding="6dp"/>
+
+
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Progress_bar"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:elevation="6dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
